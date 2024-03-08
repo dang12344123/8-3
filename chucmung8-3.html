@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chúc mừng 8 tháng 3</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    #message {
+      display: none;
+      color :cyan;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .background {
+      background-image: url(Screenshot\ \(28\).png); /* Thay 'ten-hinh-anh.jpg' bằng tên tệp hình ảnh của bạn */
+      background-size:cover;
+      background-position:center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    margin-left: 20px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="background container">
+    <button onclick="showMessage()">Nhấn để hiển thị chúc mừng</button>
+    <p id="message">8 tháng 3 vv nha tại tui ko có j hết nên chỉ bt lm 1 vài thứ như v thôi nên là tạm như v nha 
+        khi nào SN tặng quà cho ! hứa</p>
+  </div>
+
+  <script>
+    function showMessage() {
+      var messageElement = document.getElementById("message");
+      messageElement.style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
+8 tháng 3 vv nha tại tui ko có j hết nên chỉ bt lm 1 vài thứ như v thôi nên là tạm như v nha 
+    khi nào SN tặng quà cho ! hứa
